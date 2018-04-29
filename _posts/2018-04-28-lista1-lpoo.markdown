@@ -10,6 +10,7 @@ comments: true
 ---
 
 
+
 # OBJETIVOS
 
 1.  O objetivo desta atividade será reforçar os conhecimentos obtidos durante os estudos de criação de classes, encapsulamento, criação de listas e estruturas de repetição.
@@ -62,9 +63,9 @@ Crie também os métodos necessários para obter/alterar (GET/SET) estas informa
 2.  Crie uma classe `Agenda` que armazene um número indefinido de pessoas (instâncias da classe que você criou no exercício anterior) e seja capaz de realizar as seguintes ações:
     
 
-1.  armazenar uma pessoa
+- Armazenar uma pessoa
     
-2.  remover uma pessoa
+- Remover uma pessoa
     
 
   
@@ -76,11 +77,11 @@ Crie também os métodos necessários para obter/alterar (GET/SET) estas informa
 3.  (Desafio) Agora que você tem sua agenda que armazena pessoas, incremente para que ela permita :
     
 
-1.  buscar uma pessoa pelo nome
+  - Buscar uma pessoa pelo nome
     
-2.  buscar uma pessoa pelo índice da agenda
+ - Buscar uma pessoa pelo índice da agenda
     
-3.  imprimir todas as pessoas da agenda
+-  Imprimir todas as pessoas da agenda
     
 
 ***Para resolver este problema, seus conhecimentos em estrutura de repetições serão essenciais***
