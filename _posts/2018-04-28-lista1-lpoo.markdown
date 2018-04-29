@@ -1,0 +1,86 @@
+---
+layout: post
+title: Exercício LPOO
+date: 2018-04-28 22:07 +0300
+description: O objetivo desta atividade será reforçar os conhecimentos obtidos durante os estudos de criação de classes, encapsulamento, criação de listas e estruturas de repetição.
+img: post1.jpeg 
+tags: [Blog, Exercise, OO, IFPE]
+author: Jorge Roberto
+comments: true
+---
+
+
+# OBJETIVOS
+
+1.  O objetivo desta atividade será reforçar os conhecimentos obtidos durante os estudos de criação de classes, encapsulamento, criação de listas e estruturas de repetição.
+    
+
+# Instruções
+
+1.  Todos os métodos desta lista devem ser públicos e não estáticos, salvo o método `main`.
+    
+2.  Todos os nomes devem ser significativos e bem escolhidos.
+    
+3.  Crie um pacote `exercicio_lpoo` para sua implementação dos exercícios. Coloque todas as classes neste pacote.
+    
+4.  Crie uma classe `Teste_Agenda`. Nesta classe, crie o código que testa suas respostas.
+    
+
+a. Crie um ou mais métodos para testar e exercitar os métodos da outra classe.
+
+b. Cada método de teste deve chamar o método correspondente da lista, passar os parâmetros, receber o dado de retorno e verificar se ele é realmente o valor que deveria ser calculado.
+
+c. O Método `main` desta classe deve executar todos os testes e indicar se eles passaram ou não.
+
+5.  O único código externo que pode ser usado é para impressão com `System.out.println()` e similares.
+    
+
+  
+  
+  
+
+# ATIVIDADE
+
+1.  Crie uma classe `Pessoa` que possua os seguintes atributos:
+    
+
+-   Nome;
+    
+-   Telefone;
+    
+-   Email;
+    
+-   Endereço;
+    
+
+Crie também os métodos necessários para obter/alterar (GET/SET) estas informações e o método que imprima os dados de uma pessoa.
+
+***Note que você precisa definir os atributos como privados, e acessá-los através de métodos, esta prática oferece o controle que o encapsulamento fornece às classes, garantindo que não poderão ser acessadas diretamente se não pela própria classe.***
+
+  
+
+2.  Crie uma classe `Agenda` que armazene um número indefinido de pessoas (instâncias da classe que você criou no exercício anterior) e seja capaz de realizar as seguintes ações:
+    
+
+1.  armazenar uma pessoa
+    
+2.  remover uma pessoa
+    
+
+  
+
+***Você pode usar o conceito de listas para resolver este problema***
+
+  
+
+3.  (Desafio) Agora que você tem sua agenda que armazena pessoas, incremente para que ela permita :
+    
+
+1.  buscar uma pessoa pelo nome
+    
+2.  buscar uma pessoa pelo índice da agenda
+    
+3.  imprimir todas as pessoas da agenda
+    
+
+***Para resolver este problema, seus conhecimentos em estrutura de repetições serão essenciais***

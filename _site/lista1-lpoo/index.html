@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>The forest in the fog - Jorge Roberto</title>
-	<meta name="description" content="You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes.">
+	<title>Exercício LPOO - Jorge Roberto</title>
+	<meta name="description" content="O objetivo desta atividade será reforçar os conhecimentos obtidos durante os estudos de criação de classes, encapsulamento, criação de listas e estruturas de repetição.">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta property="og:image" content="">
@@ -51,28 +51,102 @@
 
   <article class="article-page">
     <div class="page-image">
-      <div class="cover-image" style="background: url(/assets/img/post-6.jpg) center no-repeat; background-size: cover;"></div>
+      <div class="cover-image" style="background: url(/assets/img/post1.jpeg) center no-repeat; background-size: cover;"></div>
     </div>
     <div class="wrapper">
       <div class="page-content">
         <div class="header-page">
-          <h1 class="page-title">The forest in the fog</h1>
-          <div class="page-date"><time datetime="2017-08-20 07:32:20 -0300">2017, Aug 20</time></div>
+          <h1 class="page-title">Exercício LPOO</h1>
+          <div class="page-date"><time datetime="2018-04-28 16:07:00 -0300">2018, Apr 28</time></div>
         </div>
-        <p>You’ll find this post in your <code class="highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+        <h1 id="objetivos">OBJETIVOS</h1>
 
-<p>To add new posts, simply add a file in the <code class="highlighter-rouge">_posts</code> directory that follows the convention <code class="highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+<ol>
+  <li>O objetivo desta atividade será reforçar os conhecimentos obtidos durante os estudos de criação de classes, encapsulamento, criação de listas e estruturas de repetição.</li>
+</ol>
 
-<p>Jekyll also offers powerful support for code snippets:</p>
+<h1 id="instruções">Instruções</h1>
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+<ol>
+  <li>
+    <p>Todos os métodos desta lista devem ser públicos e não estáticos, salvo o método <code class="highlighter-rouge">main</code>.</p>
+  </li>
+  <li>
+    <p>Todos os nomes devem ser significativos e bem escolhidos.</p>
+  </li>
+  <li>
+    <p>Crie um pacote <code class="highlighter-rouge">exercicio_lpoo</code> para sua implementação dos exercícios. Coloque todas as classes neste pacote.</p>
+  </li>
+  <li>
+    <p>Crie uma classe <code class="highlighter-rouge">Teste_Agenda</code>. Nesta classe, crie o código que testa suas respostas.</p>
+  </li>
+</ol>
 
-<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>
+<p>a. Crie um ou mais métodos para testar e exercitar os métodos da outra classe.</p>
 
+<p>b. Cada método de teste deve chamar o método correspondente da lista, passar os parâmetros, receber o dado de retorno e verificar se ele é realmente o valor que deveria ser calculado.</p>
+
+<p>c. O Método <code class="highlighter-rouge">main</code> desta classe deve executar todos os testes e indicar se eles passaram ou não.</p>
+
+<ol>
+  <li>O único código externo que pode ser usado é para impressão com <code class="highlighter-rouge">System.out.println()</code> e similares.</li>
+</ol>
+
+<h1 id="atividade">ATIVIDADE</h1>
+
+<ol>
+  <li>Crie uma classe <code class="highlighter-rouge">Pessoa</code> que possua os seguintes atributos:</li>
+</ol>
+
+<ul>
+  <li>
+    <p>Nome;</p>
+  </li>
+  <li>
+    <p>Telefone;</p>
+  </li>
+  <li>
+    <p>Email;</p>
+  </li>
+  <li>
+    <p>Endereço;</p>
+  </li>
+</ul>
+
+<p>Crie também os métodos necessários para obter/alterar (GET/SET) estas informações e o método que imprima os dados de uma pessoa.</p>
+
+<p><strong><em>Note que você precisa definir os atributos como privados, e acessá-los através de métodos, esta prática oferece o controle que o encapsulamento fornece às classes, garantindo que não poderão ser acessadas diretamente se não pela própria classe.</em></strong></p>
+
+<ol>
+  <li>
+    <p>Crie uma classe <code class="highlighter-rouge">Agenda</code> que armazene um número indefinido de pessoas (instâncias da classe que você criou no exercício anterior) e seja capaz de realizar as seguintes ações:</p>
+  </li>
+  <li>
+    <p>armazenar uma pessoa</p>
+  </li>
+  <li>
+    <p>remover uma pessoa</p>
+  </li>
+</ol>
+
+<p><strong><em>Você pode usar o conceito de listas para resolver este problema</em></strong></p>
+
+<ol>
+  <li>
+    <p>(Desafio) Agora que você tem sua agenda que armazena pessoas, incremente para que ela permita :</p>
+  </li>
+  <li>
+    <p>buscar uma pessoa pelo nome</p>
+  </li>
+  <li>
+    <p>buscar uma pessoa pelo índice da agenda</p>
+  </li>
+  <li>
+    <p>imprimir todas as pessoas da agenda</p>
+  </li>
+</ol>
+
+<p><strong><em>Para resolver este problema, seus conhecimentos em estrutura de repetições serão essenciais</em></strong></p>
 
         <div class="page-footer">
           <div class="page-tag">
@@ -80,14 +154,18 @@
             
             <a href="/tags#Blog" class="tag">| Blog</a>
             
-            <a href="/tags#Meditation" class="tag">| Meditation</a>
+            <a href="/tags#Exercise" class="tag">| Exercise</a>
+            
+            <a href="/tags#OO" class="tag">| OO</a>
+            
+            <a href="/tags#IFPE" class="tag">| IFPE</a>
             
           </div><!-- End Tags -->
           <div class="page-share">
             <span>Share:</span>
-            <a href="https://twitter.com/intent/tweet?text=The forest in the fog&url=http://localhost:4000/the-forest-in-the-fog/" title="Share on Twitter" rel="nofollow" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-            <a href="https://facebook.com/sharer.php?u=http://localhost:4000/the-forest-in-the-fog/" title="Share on Facebook" rel="nofollow" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-            <a href="https://plus.google.com/share?url=http://localhost:4000/the-forest-in-the-fog/" title="Share on Google+" rel="nofollow" target="_blank"><i class="fa fa-google" aria-hidden="true"></i></a>
+            <a href="https://twitter.com/intent/tweet?text=Exercício LPOO&url=http://localhost:4000/lista1-lpoo/" title="Share on Twitter" rel="nofollow" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="https://facebook.com/sharer.php?u=http://localhost:4000/lista1-lpoo/" title="Share on Facebook" rel="nofollow" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="https://plus.google.com/share?url=http://localhost:4000/lista1-lpoo/" title="Share on Google+" rel="nofollow" target="_blank"><i class="fa fa-google" aria-hidden="true"></i></a>
           </div><!-- End Share -->
         </div>
         <section class="author-box">
@@ -117,36 +195,14 @@
   <div class="recent-list">
     
       
-        <a href="/i-conquer-the-himalayas/" class="recent-item" style="background: url(/assets/img/post-1.jpg) center no-repeat; background-size: cover;"><span>I conquer the Himalayas</span></a>
-      
-    
-      
-        <a href="/i-meet-the-sunset/" class="recent-item" style="background: url(/assets/img/post-2.jpg) center no-repeat; background-size: cover;"><span>I meet the sunset</span></a>
-      
-    
-      
-        <a href="/meeting-with-adventures/" class="recent-item" style="background: url(/assets/img/post-3.jpg) center no-repeat; background-size: cover;"><span>On a meeting with adventures</span></a>
-      
-    
-      
-        <a href="/snowboarding-and-my-life/" class="recent-item" style="background: url(/assets/img/post-4.jpg) center no-repeat; background-size: cover;"><span>Snowboarding and my life</span></a>
+        <a href="/lista1-lpoo/" class="recent-item" style="background: url(/assets/img/post1.jpeg) center no-repeat; background-size: cover;"><span>Exercício LPOO</span></a>
       
     
   </div>
 </div> <!-- End Recent-Box -->
 
         <div class="newsletter" id="mc_embed_signup">
-  <h2 class="newsletter-title">Newsletter</h2>
-  <div class="form-container">
-    <p>Subscribe here to get our latest updates</p>
-    <form action="//" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-      <label class="screen-reader-text" for="mce-EMAIL">Email Address</label>
-      <div class="newsletter-box" id="mc_embed_signup_scroll">
-        <input type="email" name="EMAIL" placeholder="Email address" class="email-input" id="mce-EMAIL" required>
-        <input type="submit" value="Subscribe" name="subscribe" class="subscribe-btn" id="mc-embedded-subscribe">
-      </div>
-    </form>
-  </div>
+
 </div> <!-- End Newsletter -->
 
         <section class="comment-area">
@@ -156,7 +212,7 @@
     <script>
       (function() {
           var d = document, s = d.createElement('script');
-          s.src = '//mr-brown.disqus.com/embed.js';
+          s.src = '//jorssanf.disqus.com/embed.js';
           s.setAttribute('data-timestamp', +new Date());
           (d.head || d.body).appendChild(s);
       })();
