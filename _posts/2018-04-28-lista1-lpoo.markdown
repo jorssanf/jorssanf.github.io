@@ -42,7 +42,7 @@ c. O Método `main` desta classe deve executar todos os testes e indicar se eles
 
 # ATIVIDADE
 
-1.  Crie uma classe `Pessoa` que possua os seguintes atributos:
+1)  Crie uma classe `Pessoa` que possua os seguintes atributos:
     
 
 -   Nome;
@@ -60,7 +60,7 @@ Crie também os métodos necessários para obter/alterar (GET/SET) estas informa
 
   
 
-2.  Crie uma classe `Agenda` que armazene um número indefinido de pessoas (instâncias da classe que você criou no exercício anterior) e seja capaz de realizar as seguintes ações:
+2)  Crie uma classe `Agenda` que armazene um número indefinido de pessoas (instâncias da classe que você criou no exercício anterior) e seja capaz de realizar as seguintes ações:
     
 
 - Armazenar uma pessoa
@@ -74,7 +74,7 @@ Crie também os métodos necessários para obter/alterar (GET/SET) estas informa
 
   
 
-3.  (Desafio) Agora que você tem sua agenda que armazena pessoas, incremente para que ela permita :
+3)  (Desafio) Agora que você tem sua agenda que armazena pessoas, incremente para que ela permita :
     
 
   - Buscar uma pessoa pelo nome

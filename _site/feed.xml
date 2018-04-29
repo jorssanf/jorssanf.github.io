@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-04-28T22:43:47-03:00</updated><id>http://localhost:4000/</id><title type="html">Jorge Roberto</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-04-28T22:58:06-03:00</updated><id>http://localhost:4000/</id><title type="html">Jorge Roberto</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </subtitle><author><name>Jorge Roberto</name></author><entry><title type="html">Exercício LPOO</title><link href="http://localhost:4000/lista1-lpoo/" rel="alternate" type="text/html" title="Exercício LPOO" /><published>2018-04-28T16:07:00-03:00</published><updated>2018-04-28T16:07:00-03:00</updated><id>http://localhost:4000/lista1-lpoo</id><content type="html" xml:base="http://localhost:4000/lista1-lpoo/">&lt;h1 id=&quot;objetivos&quot;&gt;OBJETIVOS&lt;/h1&gt;
 
 &lt;ol&gt;
@@ -34,9 +34,7 @@
 
 &lt;h1 id=&quot;atividade&quot;&gt;ATIVIDADE&lt;/h1&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;Crie uma classe &lt;code class=&quot;highlighter-rouge&quot;&gt;Pessoa&lt;/code&gt; que possua os seguintes atributos:&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;1)  Crie uma classe &lt;code class=&quot;highlighter-rouge&quot;&gt;Pessoa&lt;/code&gt; que possua os seguintes atributos:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -57,33 +55,31 @@
 
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;Note que você precisa definir os atributos como privados, e acessá-los através de métodos, esta prática oferece o controle que o encapsulamento fornece às classes, garantindo que não poderão ser acessadas diretamente se não pela própria classe.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
-&lt;ol&gt;
+&lt;p&gt;2)  Crie uma classe &lt;code class=&quot;highlighter-rouge&quot;&gt;Agenda&lt;/code&gt; que armazene um número indefinido de pessoas (instâncias da classe que você criou no exercício anterior) e seja capaz de realizar as seguintes ações:&lt;/p&gt;
+
+&lt;ul&gt;
   &lt;li&gt;
-    &lt;p&gt;Crie uma classe &lt;code class=&quot;highlighter-rouge&quot;&gt;Agenda&lt;/code&gt; que armazene um número indefinido de pessoas (instâncias da classe que você criou no exercício anterior) e seja capaz de realizar as seguintes ações:&lt;/p&gt;
+    &lt;p&gt;Armazenar uma pessoa&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;armazenar uma pessoa&lt;/p&gt;
+    &lt;p&gt;Remover uma pessoa&lt;/p&gt;
   &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;remover uma pessoa&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;Você pode usar o conceito de listas para resolver este problema&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
-&lt;ol&gt;
+&lt;p&gt;3)  (Desafio) Agora que você tem sua agenda que armazena pessoas, incremente para que ela permita :&lt;/p&gt;
+
+&lt;ul&gt;
   &lt;li&gt;
-    &lt;p&gt;(Desafio) Agora que você tem sua agenda que armazena pessoas, incremente para que ela permita :&lt;/p&gt;
+    &lt;p&gt;Buscar uma pessoa pelo nome&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;buscar uma pessoa pelo nome&lt;/p&gt;
+    &lt;p&gt;Buscar uma pessoa pelo índice da agenda&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;buscar uma pessoa pelo índice da agenda&lt;/p&gt;
+    &lt;p&gt;Imprimir todas as pessoas da agenda&lt;/p&gt;
   &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;imprimir todas as pessoas da agenda&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;Para resolver este problema, seus conhecimentos em estrutura de repetições serão essenciais&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;</content><author><name>Jorge Roberto</name></author><category term="Blog" /><category term="Exercise" /><category term="OO" /><category term="IFPE" /><summary type="html">OBJETIVOS</summary></entry></feed>
