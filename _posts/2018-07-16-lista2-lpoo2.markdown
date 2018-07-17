@@ -1,0 +1,143 @@
+---
+layout: post
+title: Exercício LPOO II
+date: 2018-07-16 22:07 +0300
+description: O objetivo desta atividade será reforçar os conhecimentos obtidos durante os estudos de criação de classes, encapsulamento, criação de listas e estruturas de repetição.
+img: post2.jpeg 
+tags: [Blog, Exercise, OO, IFPE]
+author: Jorge Roberto
+comments: true
+---
+
+
+# OBJETIVOS
+
+1.  O objetivo desta atividade será reforçar os conhecimentos obtidos durante os estudos de criação de classes, encapsulamento, criação de listas e estruturas de repetição.
+    
+
+# INSTRUÇÕES
+
+1.  Todos os métodos desta lista devem ser públicos e não estáticos, salvo o método `main`.
+    
+2.  Todos os nomes devem ser significativos e bem escolhidos.
+    
+3.  Crie um pacote `exercicio_lpoo2` para sua implementação dos exercícios. Coloque todas as classes neste pacote.
+    
+4.  Crie uma classe `Teste_Agenda`. Nesta classe, crie o código que testa suas respostas.
+    
+
+a. Crie um ou mais métodos para testar e exercitar os métodos da outra classe.
+
+b. Cada método de teste deve chamar o método correspondente da lista, passar os parâmetros, receber o dado de retorno e verificar se ele é realmente o valor que deveria ser calculado.
+
+c. O Método `main` desta classe deve executar todos os testes e indicar se eles passaram ou não.
+
+5.  O único código externo que pode ser usado é para impressão com `System.out.println()` e similares.
+    
+
+  
+  
+  
+  
+
+# ATIVIDADE
+
+1.  Crie uma classe `Funcionário` que possua os seguintes atributos:
+    
+
+-   Nome;
+    
+-   Matrícula;
+    
+-   Telefone
+    
+-   Email;
+    
+-   Endereço;
+    
+
+Crie também os métodos necessários para obter/alterar (GET/SET) estas informações e o método que imprima os dados do funcionário.
+
+***Note que você precisa definir os atributos como privados, e acessá-los através de métodos, esta prática oferece o controle que o encapsulamento fornece às classes, garantindo que não poderão ser acessadas diretamente se não pela própria classe.***
+
+  
+
+2.  Crie uma classe `Telefone` que possua os seguintes atributos:
+    
+
+-   DDI;
+    
+-   DDD;
+    
+-   Número;
+    
+
+Crie também os métodos necessários para obter/alterar (GET/SET) estas informações e o método que imprima um telefone no seguinte formato: DDI (DDD) Número. EX: (55 (81) 999999999).
+
+***Perceba que aqui você utilizará seu conhecimento de como formatar uma saída utilizando as variáveis e concatenando com Strings.***
+
+  
+
+3.  Crie uma classe `Email` que possua os seguintes atributos:
+    
+
+  
+
+-   Email;
+    
+
+Crie também os métodos necessários para obter/alterar (GET/SET) estas informações e o método que verifica se o email é válido. Crie também um método que retorne o domínio do email (o que existir após o @), um que faz o cálculo do login( o que vem antes do arroba), além de um método que imprima o email completo.
+
+  
+
+***Para resolver este problema, você precisará pesquisar como se realiza uma validação de email , além de exercitar a manipulação de strings. Comece verificando se existe exatamente um caractere ‘@’. Se houver zero ou mais de um, está errado. Não valida tudo, mas ajuda.***
+
+  
+
+3.  Altere a classe  `Funcionário` para que os atributos `Telefone` e `Email` sejam compostos pelas classes que você acabou de criar. E então, exiba as seguintes informações:
+    
+
+  
+
+-  Email do funcionário;
+    
+-  Telefone do funcionário;
+    
+
+***Este problema trabalha a utilização de objetos como atributos de uma classe.***
+
+  
+
+4.  Crie a classe `Endereço` com atributos e métodos que você acha que deveriam existir neste objeto. Ex: Número. E então, substitua o atributo `Endereço` da classe `Funcionário` e imprima o endereço completo.
+    
+
+  
+
+***Neste desafio, você irá exercitar sua capacidade de elaboração de classes, refletindo sobre como esta será composta, seus métodos e atributos.***
+
+5.  Implemente as classes `Programador` e `Suporte`, sendo cada uma um `Funcionário`, e faça com que seja informado qual classe está sendo usada ao exibir os dados, ou seja, sobrescreva o método de exibição . Altere também a `Matrícula` do `Programador` e do `Suporte`, adicionando no início, respectivamente, as letras “P” e “S”. EX: P1234, S5678.
+    
+
+  
+
+***Para resolver este problema, você deve possuir noções de herança e sobrescrita de métodos.***
+
+  
+
+6.  Crie a classe `Lotação` que é composta dos seguintes atributos:
+    
+
+  
+
+-   Descrição;
+    
+-   `Endereço`;
+    
+-   `Telefone`;
+    
+
+Altere a classe `Funcionário` adicionando o atributo lotação, que identificará em que prédio o funcionário trabalha.
+
+  
+
+Nesta questão você irá reutilizar as classes `Telefone` e `Endereço` para criar a Lotação. Perceba que esta prática permite que exista o reuso do código, tornando a programação mais eficiente e a manutenção muito mais simples. Observe que qualquer modificação ou incremento nas classes `Telefone` e `Endereço` estarão acessíveis a todas que as utilizam.
